@@ -1,5 +1,5 @@
 ---
-
+import TopBar from "../components/topBar.astro"
 ---
 
 <html lang="en">
@@ -8,9 +8,13 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Co3</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<TopBar />
+		<main class="p-8">
+			<h1 class="text-4xl font-bold mb-4">Welcome to Co3!</h1>
+			<p class="text-lg">This is the homepage of your Astro project.</p>
+		</main>
 	</body>
 </html>
